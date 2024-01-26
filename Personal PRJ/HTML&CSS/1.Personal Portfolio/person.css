@@ -1,0 +1,18 @@
+#myLogo{
+   text-align: left;
+}
+#myHead{
+
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+#myLorem{
+   font-family: sans-serif;
+}
+#myText{
+   font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#myPic{
+   padding: 25px;
+}
