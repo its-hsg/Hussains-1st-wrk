@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <h2>Fun Quiz Time!</h2>
+
+  <div class="question" id="question1">
+    <p>What is the capital of France?</p>
+    <label>
+      <input type="radio" name="q1" value="paris"> Paris
+    </label>
+    <label>
+      <input type="radio" name="q1" value="london"> London
+    </label>
+    <label>
+      <input type="radio" name="q1" value="berlin"> Berlin
+    </label>
+  </div>
+
+  <div class="question" id="question2">
+    <p>What is the largest mammal on Earth?</p>
+    <label>
+      <input type="radio" name="q2" value="elephant"> Elephant
+    </label>
+    <label>
+      <input type="radio" name="q2" value="whale"> Blue Whale
+    </label>
+    <label>
+      <input type="radio" name="q2" value="giraffe"> Giraffe
+    </label>
+  </div>
+
+  <button onclick="checkAnswers()">Submit Answers</button>
+
+  <script src="quiz.js">
+    
+  </script>
+
+</body>
+</html>

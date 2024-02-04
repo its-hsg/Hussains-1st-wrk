@@ -1,0 +1,11 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+h2 {
+  color: #3498db;
+}
+.question {
+  margin-bottom: 10px;
+}
