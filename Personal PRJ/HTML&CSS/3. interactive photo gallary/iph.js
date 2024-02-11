@@ -1,4 +1,4 @@
-// Inside the script tag
+
 document.addEventListener('DOMContentLoaded', function () {
   const gallery = document.querySelector('.gallery');
   const modal = document.getElementById('modal');
