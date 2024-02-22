@@ -11,7 +11,7 @@ function addTask(event) {
     const taskItem = document.createElement('li'); // Create new task item
     taskItem.textContent = taskText; // Set task text
     taskList.appendChild(taskItem); // Append task item to task list
-    taskInput.value = '';//Clear input field
+    taskInput.value = ''; //Clear input field
   }
 }
 
