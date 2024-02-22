@@ -9,7 +9,7 @@ function addTask(event) {
   const taskText = taskInput.value.trim(); // Get task text
   if (taskText !== '') {
     const taskItem = document.createElement('li'); // Create new task item
-    taskItem.textContent = taskText;// Set task text
+    taskItem.textContent = taskText; // Set task text
     taskList.appendChild(taskItem);// Append task item to task list
     taskInput.value = '';//Clear input field
   }
