@@ -4,7 +4,7 @@ const taskList = document.getElementById('task-list');
 
 todoForm.addEventListener('submit', addTask);
 
-function addTask(event) {
+function addTask(event){
   event.preventDefault(); // Prevent form submission
   const taskText = taskInput.value.trim(); // Get task text
   if (taskText !== ''){
