@@ -18,7 +18,7 @@ function addTask(event){
 taskList.addEventListener('click', removeTask);
 
 function removeTask(event) {
-  if (event.target.tagName === 'LI') {
+  if(event.target.tagName === 'LI') {
     event.target.remove();// Remove the clicked task item
   }
 }
