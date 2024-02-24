@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }) ;
 
   modal.addEventListener('click', function () {
-    modal.style.display = 'none';
+    modal.style.display = 'none' ;
   }) ;
 }) ;
