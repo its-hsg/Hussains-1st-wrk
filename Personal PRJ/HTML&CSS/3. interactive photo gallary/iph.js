@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       modalImage.src = imgSrc;
       modal.style.display = 'block';
     }
-  });
+  }) ;
 
   modal.addEventListener('click', function () {
     modal.style.display = 'none';
