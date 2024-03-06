@@ -17,7 +17,5 @@ function checkAnswers() {
     score++;
   }
 
-
-
   alert(`Hey User! Your score is ${score} out of 3. Good job!`);
 }
