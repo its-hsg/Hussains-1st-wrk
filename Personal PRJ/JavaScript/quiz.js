@@ -9,7 +9,7 @@ function checkAnswers() {
     score++;
   }
 
-  if (q2Answer === 'whale') {
+  if (q2Answer === 'whale'){
     score++;
   }
 
