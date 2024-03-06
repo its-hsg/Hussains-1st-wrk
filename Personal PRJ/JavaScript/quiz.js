@@ -13,7 +13,7 @@ function checkAnswers() {
     score++;
   }
 
- if (q3Answer === 'Ronaldo') {
+ if (q3Answer === 'Ronaldo'){
     score++;
   }
 
