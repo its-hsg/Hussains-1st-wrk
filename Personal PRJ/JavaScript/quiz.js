@@ -5,7 +5,7 @@ function checkAnswers() {
   const q2Answer = document.querySelector ('input[name="q2"]:checked').value;
   const q3Answer = document.querySelector ('input[name="q3"]:checked').value;
   
-  if (q1Answer === 'paris'){
+  if(q1Answer === 'paris'){
     score++;
   }
 
