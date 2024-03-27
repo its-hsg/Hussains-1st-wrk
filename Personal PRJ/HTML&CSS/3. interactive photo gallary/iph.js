@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const modal = document.getElementById('modal');
   const modalImage = document.getElementById('modalImage');
 
-  gallery.addEventListener('click', function (event) {
+  gallery.addEventListener('click', function (event){
     if (event.target.tagName === 'IMG') {
       const imgSrc = event.target.src;
       modalImage.src = imgSrc;
