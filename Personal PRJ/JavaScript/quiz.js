@@ -3,7 +3,7 @@
   
   const q1Answer = document.querySelector ('input[name="q1"]:checked').value;
   const q2Answer = document.querySelector ('input[name="q2"]:checked').value;
-  const q3Answer = document.querySelector('input[name="q3"]:checked').value;
+  const q3Answer = document.querySelector ('input[name="q3"]:checked').value;
   
   if(q1Answer === 'paris'){
     score++;
