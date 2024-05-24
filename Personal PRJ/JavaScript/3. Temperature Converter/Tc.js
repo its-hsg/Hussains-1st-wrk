@@ -1,7 +1,7 @@
 
 
 
-function convertToCelsius() {
+function  convertToCelsius() {
   const fahrenheitInput = document.getElementById('fahrenheit').value;
   if (fahrenheitInput === '') {
       alert('Please enter a value in Fahrenheit')
