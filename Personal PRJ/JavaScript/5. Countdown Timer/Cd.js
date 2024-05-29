@@ -1,5 +1,5 @@
 // Set the countdown time in seconds
-let countdownTime = 1000; // for example, 
+let countdownTime = 1000; // for exam
 
 const countdownElement = document.getElementById('countdown');
 const minutesElement = document.getElementById('minutes');
